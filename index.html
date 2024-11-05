@@ -3,32 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Sencilla</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Krisma - Cascos de Moto de Alta Tecnología</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Nuestra Landing Page</h1>
-        <p>Esta es una descripción breve de lo que ofrecemos.</p>
+        <h1>Bienvenido a KRISMA</h1>
+        <p>Cascos de moto con tecnología de punta y seguridad avanzada</p>
     </header>
-    
-    <section>
-        <h2>Sobre Nosotros</h2>
-        <p>Información sobre la empresa o el producto.</p>
-        <div id="hs-script-loader"></div>
+
+    <section id="features">
+        <h2>Características de Nuestros Cascos</h2>
+        <p>✨ Descubre los cascos KRISMA, donde la tecnología y la seguridad se fusionan para ofrecerte una experiencia de conducción inigualable. 🏍️</p>
+        <ul>
+            <li>**Realidad mixta integrada** 🕶️</li>
+            <li>**Dashcam delantera y trasera en 2K** 📸</li>
+            <li>**Bluetooth, micrófono, altavoces y tecnología Mesh** 🔗 compatibles con Android y iOS 📱</li>
+            <li>**Sistema de emergencia SecurityKM** 🚨</li>
+            <li>**Combinación de fibra de carbono y Kevlar** 🦾 para máxima protección y ligereza</li>
+        </ul>
     </section>
-    
-    <section>
+
+    <section id="shipping">
+        <h2>Envíos</h2>
+        <p>📦 **Envíos gratuitos para toda España**. 🚚 **20€** para el resto de Europa. 🌍 Envíos a otros países con costo variable según la ubicación.</p>
+    </section>
+
+    <section id="warranty">
+        <h2>Garantía y Devoluciones</h2>
+        <p>🛡️ **Garantía de 2 años** en todos nuestros cascos. Política de **devoluciones sencillas de 30 días**. ¡Compra con confianza! 😊</p>
+    </section>
+
+    <section id="contact">
         <h2>Contacto</h2>
-        <form id="contact-form">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <button type="submit">Enviar</button>
-        </form>
+        <p>📞 **Llámanos** al +34 632 987 654</p>
+        <p>💬 **WhatsApp**: +34 632 987 765</p>
+        <p>✉️ **Email**: <a href="mailto:soporte@krisma.com">soporte@krisma.com</a></p>
+    </section>
+
+    <section id="stock-check">
+        <h2>Consulta de Stock</h2>
+        <p>🤔 Indícanos el **modelo específico** del casco KRISMA que te interesa y te informaremos sobre su disponibilidad. 🏍️💨</p>
+        <div id="stock-messages">
+            <p>✅ Stock completo disponible.</p>
+            <p>🟢 Unidades disponibles, pero se están vendiendo rápido.</p>
+            <p>🟡 Pocas unidades restantes. ¡Actúa rápido!</p>
+            <p>❌ Sin stock actualmente, te podemos notificar cuando esté disponible.</p>
+        </div>
     </section>
 
     <!-- Integración de HubSpot -->
@@ -36,6 +57,6 @@
     <script id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/47932673.js"></script>
     <!-- End of HubSpot Embed Code -->
 
-    <script src="js/script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
